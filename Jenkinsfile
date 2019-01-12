@@ -5,8 +5,8 @@ pipeline {
       agent any
       steps {
         bat 'gradle build'
-        bat 'gradle javadoc'
-        archiveArtifacts 'target/*.jar,target/*.html,target/*.css'
+        bat 'gradle myJavaDocs'
+        archiveArtifacts(artifacts: 'build/libs/*.jar , build/docs/javadoc/*', onlyIfSuccessful: true)
       }
     }
   }

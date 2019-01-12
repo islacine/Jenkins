@@ -31,5 +31,15 @@ pipeline {
         }
       }
     }
+    stage('Deployment') {
+      steps {
+        bat 'gradle uploadArchives'
+      }
+    }
+    stage('Slack Notification') {
+      steps {
+        slackSend(channel: 'buildsjenkins', color: '#ffffff', message: 'jenkins reached slack build ')
+      }
+    }
   }
 }

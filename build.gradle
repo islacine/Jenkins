@@ -17,6 +17,10 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
+javadoc { 
+    source sourceSets.api.allJava 
+} 
+
 uploadArchives {
     repositories {
         maven {
@@ -28,7 +32,3 @@ uploadArchives {
         }
     }
 }
-
-
-
-

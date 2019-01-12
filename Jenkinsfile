@@ -16,12 +16,7 @@ pipeline {
     stage('Code Analysis') {
       parallel {
         stage('Code Analysis') {
-          steps {
-           
-            }
-
-            waitForQualityGate true
-          }
+         
         }
         stage('Test Reporting') {
           steps {

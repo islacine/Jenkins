@@ -13,6 +13,21 @@ pipeline {
         mail(subject: 'build finished', body: 'build finished', to: 'fa_djellal@esi.dz')
       }
     }
+    stage('Code Analysis') {
+      parallel {
+        stage('Code Analysis') {
+          steps {
+            withSonarQubeEnv 'sonarqube'
+            waitForQualityGate true
+          }
+        }
+        stage('Test Reporting') {
+          steps {
+            jacoco(buildOverBuild: true)
+          }
+        }
+      }
+    }
     stage('Deployment') {
       steps {
         bat 'gradle uploadArchives'
@@ -20,7 +35,7 @@ pipeline {
     }
     stage('Slack Notification') {
       steps {
-        slackSend(channel: 'buildsjenkins', color: '#ffffff', message: 'jenkins reached slack build ')
+        slackSend(channel: 'buildsjenkins', color: '#ffffff', message: 'tree reached slack notification')
       }
     }
   }

@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="135803bd-2b19-42e5-9efe-71d8ab6b2b27" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/matrix$MatrixMathematicTest.ic" NAME="MatrixMathematicTest Coverage Results" MODIFIED="1543757474882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="matrix" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1485716928">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gradle" value="1" />
+          <entry key="java" value="6" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Groovy" value="1" />
+          <entry key="JAVA" value="6" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="gradle" value="370" />
+          <entry key="java" value="21" />
+          <entry key="properties" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Groovy" value="370" />
+          <entry key="JAVA" value="21" />
+          <entry key="Properties" value="25" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MatrixMathematicTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/exception/NoSquareException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/MatrixMathematics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Matrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="C:\Gradle\gradle-4.10.2" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4.10.2" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="matrix" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="matrix" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'matrix'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'matrix'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'matrix'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'matrix'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Verifies code coverage metrics based on specified rules for the test task." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jacocoTestCoverageVerification" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateMatrixAPI" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run PIT analysis for java classes" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="pitest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'matrix'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'matrix'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Analyzes root project 'matrix' and its subprojects with SonarQube." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="sonarqube" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'matrix'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates code coverage report for the test task." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jacocoTestReport" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'matrix'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uploads all artifacts belonging to configuration ':archives'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="uploadArchives" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'matrix'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4631276098320" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="4182078816" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="2342901678" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonarsource.scanner.gradle/sonarqube-gradle-plugin/2.6.2/1157e5e6022839e58b5b7c5633b9cece49803c29/sonarqube-gradle-plugin-2.6.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.alexleventer.gradle/gradle-slack-plugin/1.0.3/bbf87daf2b4d5da75e4c7c17e423355af5f8feb8/gradle-slack-plugin-1.0.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.solidsoft.gradle.pitest/gradle-pitest-plugin/1.3.0/70f786481a1fbf4cecf3f9205c0650181690502f/gradle-pitest-plugin-1.3.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonarsource.scanner.api/sonar-scanner-api/2.9.0.887/69430444f5bc97cbe124646bd24c581ea3c9b2cf/sonar-scanner-api-2.9.0.887-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.30/3a00be60f8d3eb8dfe0bedd9a174cf2948138287/kotlin-stdlib-jdk8-1.2.30-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/e99b7b608968f16b07104b93e62cb90701174d0/okhttp-3.10.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/b2da9f8444128651758719856de579eacff7f387/gson-2.8.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.30/50878770fd010106bd91f2f5c3b7904a56883ec3/kotlin-stdlib-1.2.30-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.30/49e090644e085340bb9afc7d554b2df8394bb36c/kotlin-stdlib-jdk7-1.2.30-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/e7c96b4fe5651490d8f3c022042940d743a3bdd9/okio-1.14.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonarsource.scanner.gradle/sonarqube-gradle-plugin/2.6.2/c6e2da4c6dd1bccab1753ca1faa9b33688339fb6/sonarqube-gradle-plugin-2.6.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.alexleventer.gradle/gradle-slack-plugin/1.0.3/87bd84cf9aae6fba3c916982dfef10abe5316e7d/gradle-slack-plugin-1.0.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.solidsoft.gradle.pitest/gradle-pitest-plugin/1.3.0/544d22a32e5c409c643a6a7f15513f74bbabccde/gradle-pitest-plugin-1.3.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonarsource.scanner.api/sonar-scanner-api/2.9.0.887/daf561ff8b9d3f83bbd2080c44083147426dc9ae/sonar-scanner-api-2.9.0.887.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.2.30/f916048adc012c9342b796a5f84c0ac6205abcac/kotlin-stdlib-jdk8-1.2.30.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.30/2dfac33f8b4e92c9dd1422cd286834701a6f6d6/kotlin-stdlib-1.2.30.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.30/ca12c47fc1e3a7316067b2a51e2f214745ebf8c5/kotlin-stdlib-jdk7-1.2.30.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="matrix" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="C:/Gradle/gradle-4.10.2/src/announce" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/antlr" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/base-services" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/base-services-groovy" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/build-cache" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/build-cache-http" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/build-comparison" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/build-init" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/build-option" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/cli" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/code-quality" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/composite-builds" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/core" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/core-api" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/dependency-management" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/diagnostics" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/docs" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/ear" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/ide" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/ide-native" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/ide-play" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/installation-beacon" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/internal-android-performance-testing" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/internal-integ-testing" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/internal-performance-testing" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/internal-testing" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/ivy" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/jacoco" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/javascript" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/jvm-services" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/language-groovy" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/language-java" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/language-jvm" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/language-native" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/language-scala" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/launcher" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/logging" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/maven" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/messaging" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/model-core" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/model-groovy" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/native" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/osgi" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/persistent-cache" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/platform-base" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/platform-jvm" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/platform-native" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/platform-play" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/plugin-development" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/plugin-use" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/plugins" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/process-services" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/publish" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/reporting" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/resources" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/resources-gcs" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/resources-http" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/resources-s3" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/resources-sftp" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/scala" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/signing" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/test-kit" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/testing-base" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/testing-junit-platform" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/testing-jvm" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/testing-native" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/tooling-api" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/tooling-api-builders" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/tooling-native" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/version-control" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/workers" />
+                  <option value="C:/Gradle/gradle-4.10.2/src/wrapper" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/ant-1.9.11.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/ant-launcher-1.9.11.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-api-metadata-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-base-services-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-base-services-groovy-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-build-cache-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-build-option-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-cli-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-core-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-core-api-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-docs-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-installation-beacon-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-jvm-services-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-1.0-rc-6.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-provider-plugins-1.0-rc-6.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-tooling-builders-1.0-rc-6.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-kotlin-dsl-tooling-models-1.0-rc-6.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-launcher-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-logging-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-messaging-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-model-core-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-model-groovy-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-native-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-persistent-cache-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-process-services-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-resources-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-runtime-api-info-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-tooling-api-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/gradle-wrapper-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/groovy-all-2.4.15.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-announce-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-antlr-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-build-cache-http-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-build-comparison-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-build-init-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-code-quality-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-composite-builds-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-dependency-management-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-diagnostics-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-ear-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-ide-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-ide-native-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-ide-play-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-ivy-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-jacoco-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-javascript-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-language-groovy-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-language-java-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-language-jvm-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-language-native-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-language-scala-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-maven-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-osgi-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-platform-base-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-platform-jvm-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-platform-native-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-platform-play-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-plugin-development-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-plugin-use-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-plugins-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-publish-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-reporting-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-resources-gcs-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-resources-http-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-resources-s3-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-resources-sftp-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-scala-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-signing-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-test-kit-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-testing-base-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-testing-junit-platform-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-testing-jvm-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-testing-native-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-tooling-api-builders-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-tooling-native-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-version-control-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/gradle-workers-4.10.2.jar" />
+                  <option value="C:/Gradle/gradle-4.10.2/lib/plugins/ivy-2.2.0.jar" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/model/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/MatrixMathematics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/exception/NoSquareException.java" />
+        <option value="$PROJECT_DIR$/sonar-project.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/MatrixMathematicTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="matrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="matrix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="matrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="matrix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="matrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="matrix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="matrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="matrix" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543764991063" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javaWorkPlace\matrix" />
+      <recent name="E:\javaWorkPlace\matrix\src\test\java" />
+      <recent name="E:\javaWorkPlace\matrix\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixMathematicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="matrix_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MatrixMathematicTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MatrixMathematicTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="135803bd-2b19-42e5-9efe-71d8ab6b2b27" name="Default Changelist" comment="" />
+      <created>1543755151283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543755151283</updated>
+      <workItem from="1543755157602" duration="9638000" />
+      <workItem from="1544085321542" duration="79000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MatrixMathematicTest - 2018.12.02 at 14h 04m 41s.xml">
+      <configuration name="MatrixMathematicTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatrixMathematicTest - 2018.12.02 at 14h 31m 43s.xml">
+      <configuration name="MatrixMathematicTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9717000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35737705" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.5012225" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" sideWeight="0.4987775" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/model/Matrix.java" />
+    <entry file="file://$PROJECT_DIR$/build/test-results/test/TEST-MatrixMathematicTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sonar-project.properties" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MatrixMathematicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exception/NoSquareException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/MatrixMathematics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="gradleExecuteTaskHistory">
+    <option value="" />
+  </component>
+</project>

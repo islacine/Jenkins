@@ -17,8 +17,9 @@ pipeline {
       parallel {
         stage('Code Analysis') {
           steps {
+            def scannerHome = tool 'sonarscanner'
             withSonarQubeEnv('sonarqube') {
-              powershell 'sonar-scanner'
+              bat "${scannerHome}/bin/sonar-scanner"
             }
 
             waitForQualityGate true

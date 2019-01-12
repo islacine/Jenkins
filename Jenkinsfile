@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  tools {
+    scannerHome "sonar-scanner"
+  }
   stages {
     stage('Build') {
       steps {

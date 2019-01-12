@@ -2,7 +2,6 @@ pipeline {
   agent any
   stages {
     stage('Build') {
-      agent any
       steps {
         bat 'gradle build'
         bat 'gradle myJavaDocs'

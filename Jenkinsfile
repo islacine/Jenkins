@@ -13,5 +13,19 @@ pipeline {
         mail(subject: 'build finished', body: 'build finished', to: 'fa_djellal@esi.dz')
       }
     }
+    stage('Code Analysis') {
+      parallel {
+        stage('Code Analysis') {
+          steps {
+            waitForQualityGate true
+          }
+        }
+        stage('Test Reporting') {
+          steps {
+            jacoco(buildOverBuild: true)
+          }
+        }
+      }
+    }
   }
 }

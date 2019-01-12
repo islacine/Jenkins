@@ -17,10 +17,7 @@ pipeline {
       parallel {
         stage('Code Analysis') {
           steps {
-            script {
-              def sonarScanner = tool name: 'sonarscanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
-              bat "${sonarScanner}/bin/sonar-scanner -e -Dsonar.host.url=xxx"
-              }
+           
             }
 
             waitForQualityGate true

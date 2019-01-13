@@ -7,8 +7,7 @@ pipeline {
         bat 'gradle myJavaDocs'
         archiveArtifacts(artifacts: 'build/libs/*.jar , build/docs/javadoc/*', onlyIfSuccessful: true)
       }
-    }
-    post {
+      post {
       failure {
         mail(subject: 'build finished', body: 'build failed', to: 'fa_djellal@esi.dz')
       }
@@ -16,6 +15,8 @@ pipeline {
         mail(subject: 'build finished', body: 'build success', to: 'fa_djellal@esi.dz')
       }
     }
+    }
+    
     stage('Code Analysis') {
       parallel {
         stage('Code Analysis') {

@@ -33,7 +33,7 @@ pipeline {
     }
     stage('Deployment') {
       when {
-       branch 'master' 
+        branch 'master'
       }
       steps {
         bat 'gradle uploadArchives'
@@ -41,7 +41,7 @@ pipeline {
     }
     stage('Slack Notification') {
       when {
-       branch 'master' 
+        branch 'master'
       }
       steps {
         slackSend(channel: 'buildsjenkins', color: '#ffffff', message: 'tree reached slack notification')

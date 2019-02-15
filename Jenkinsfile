@@ -9,10 +9,10 @@ pipeline {
       }
       post {
       failure {
-        mail(subject: 'build finished', body: 'build failed', to: 'fa_djellal@esi.dz')
+        mail(subject: 'build finished', body: 'build failed', to: 'fk_mokrane@esi.dz')
       }
       success {
-        mail(subject: 'build finished', body: 'build success', to: 'fa_djellal@esi.dz')
+        mail(subject: 'build finished', body: 'build success', to: 'fk_mokrane@esi.dz')
       }
     }
     }
